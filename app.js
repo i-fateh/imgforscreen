@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (srcElement && imgElement) {
       var imgSrc = imgElement.currentSrc;
       // Exclure les 21 premiers caractères de la source de l'image
-      var truncatedSrc = imgSrc.substring(21);
+      var truncatedSrc = imgSrc.substring(33);
   
       srcElement.textContent = `Your screen is "${window.innerWidth}"px. So I get this image source 👉🏻 ${truncatedSrc}`;
     } else {

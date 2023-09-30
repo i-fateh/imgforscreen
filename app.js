@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function () {
     var srcElement = document.getElementById('src');
     var imgElement = document.getElementById('myImg');
   

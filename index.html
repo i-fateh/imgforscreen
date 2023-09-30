@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Image Src / Screen Size with srcset and sizes attributes</title>
+</head>
+<body>
+    <h1>Image Src / Screen Size</h1>
+    <h3 id="src"></h3>
+
+    <img 
+        id="myImg"
+        srcset="
+            ./images/imgSmall.jpeg 928w,
+            ./images/imgXXLarge.jpg 1920w,
+            ./images/imgLarge.jpeg 1749w
+         "
+        sizes=" 
+            (max-width: 626px) 95vw, 60vw
+        "
+        src="./images/imgSmall.jpeg"
+        alt="Work on srcset and sizes">
+    </body>
+</html>

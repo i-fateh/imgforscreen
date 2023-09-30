@@ -1,1 +1,1 @@
-document.getElementById('src').textContent = `Your screen is" + ${window.innerWidth} + "px. So i get this image source 👉🏻 ${document.getElementById('myImg').currentSrc}`;
+document.getElementById('src').textContent = `Your screen is "${window.innerWidth}"px. So i get this image source 👉🏻 ${document.getElementById('myImg').currentSrc}`;

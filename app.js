@@ -12,4 +12,3 @@ document.addEventListener('DOMContentLoaded', function () {
       console.log("Les éléments avec les ID 'src' et 'myImg' n'ont pas été trouvés.");
     }
   });
-  
